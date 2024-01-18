@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#line {
+  height: auto;
+  width: 500px;
+  color: purple;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  padding: 5px;
+  margin: 10px;
+  background-color: purple;
+  border: 5px solid #ff5f1f;
+  border-radius: 0px 25px 0px 25px;
+  box-sizing: border-box;
+}
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: #ff5f1f;
+  display: inline-block;
+  /* visibility: hidden; */
+  
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 5px;
+  display: inline-block;
+}

@@ -1,0 +1,70 @@
+/* this is css comment*/
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* this is element selector */
+h1 {
+  color: red;
+}
+p {
+  color: #ff5f1f;
+}
+/* For group selestor */
+p,
+h4 {
+  color: blue;
+}
+/* for descendanr selector */
+#descendant h1 {
+  color: purple;
+}
+/* for id selector and set background color */
+
+#backgroundclr {
+  color: white;
+  background-color: red;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+}
+
+#box1 {
+  background-color: #ff5f1f;
+}
+#box2 {
+  background-color: blue;
+}
+#box3 {
+  background-color: rebeccapurple;
+}
+
+/* for image */
+.img{
+    height: 200px;
+    width: 200px;
+background-color: #ff5f1f;    background-image: url(./assets/drone.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+/* above property in horthand style */
+.img1{
+    height: 200px;
+    width: 200px;
+    background:greenyellow url(./assets/drone.jpg) no-repeat  center ;
+    background-size: contain;
+}
+.text{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    text-decoration: underline;  
+    text-decoration-style: wavy;
+    text-decoration-color: #ffffff;
+    text-transform: uppercase;
+}
